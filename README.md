@@ -1,85 +1,83 @@
-# Frontend Mentor - REST Countries API with color theme switcher
+Challenge: "Frontend Mentor's REST Countries API with color theme switcher (React)"
+This excellent challenge was created by, and lives at frontendmentor.io.
 
-![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
+In this document we will simply break down that challenge into approachable levels, and give extra tips for getting started.
 
-## Welcome! 👋
+Challenge Overview
+Your eventual challenge is to make a React app integrate with the REST Countries API to fetch country data and display it like in the designs provided by frontendmentor.io.
 
-Thanks for checking out this front-end coding challenge.
+However, in the earlier levels you will be given a file containing with the downloaded countries data, so that you do not have to fetch it from the API.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+Pre-requisites - what do I need to know to finish this challenge?
+Level 1 - React week 1:
 
-**To do this challenge, you need a good understanding of JavaScript.**
+React props
+The array.map method and its use in React JSX
+Lots of CSS (flexbox recommended)
+Later levels - React week 2:
 
-## The challenge
+Event handlers: onClick for buttons
+Event handlers: onChange for input fields and select elements
+useState: The React State hook
+useEffect: The React Effect hook, and how to use it with fetch.
+Getting Started
+Don't clone this repo.
+Read Level 1 below, but don't start
+Carefully read the brief in the frontend mentor challenge
+Sign in to frontendmentor.io and download and expand the starter pack
+Read the instructions and guidance in that pack.
+Read Level 1 below, again! It tells you what you can ignore!
+Make your own React app using create-react-app. See (this guide) if you have forgotten how.
+Copy the ./countriesAll.json data file into your src/ directory, and then import it.
+Put your project on GitHub (see below)
+Host it on Netlify (see below)
+Write a plain HTML prototype (e.g. on codepen) with some copy-pasted country "cards". THEN, once you are confident about the HTML you need to create...
 
-Your challenge is to integrate with the [REST Countries API](https://restcountries.eu) to pull country data and display it like in the designs.
+Start to code the React app!
+The data:
+The data you will need is available in the file ./countriesAll.json. This is a list of all countries, obtained from https://restcountries.eu/rest/v2/all
+Read "Getting Started" for what to do with this file.
+In later levels you will make your app fetch the data directly from the API as described in the frontendmentor challenge.
+GitHub & Hosting:
+Add your project in github and host it on Netlify.
 
-You can use any JavaScript framework/library on the front-end such as [React](https://reactjs.org) or [Vue](https://vuejs.org). You also have complete control over which packages you use to do things like make HTTP requests or style your project.
-
-Your users should be able to:
-
-- See all countries from the API on the homepage
-- Search for a country using an `input` field
-- Filter countries by region
-- Click on a country to see more detailed information on a separate page
-- Click through to the border countries on the detail page
-- Toggle the color scheme between light and dark mode *(optional)*
-
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
-
-## Where to find everything
-
-Your task is to build out the project to the designs inside the `/design` folder. 
-
-In this challenge, you will find mobile and desktop designs in light and dark mode color schemes for both pages.
-
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
-
-If you would like the Sketch file in order to inspect the design in more detail you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
-
-There are no assets for this challenge, as the country flags will be pulled from the [REST Countries API](https://restcountries.eu) and you can use an icon font library for the icons.
-
-There is a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
-
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on [GitHub](https://github.com/). This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, [have a read through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a URL. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, but we recommend using [Vercel](https://bit.ly/fem-vercel). We've got more information about deploying your project with Vercel below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are a number of ways to host your project for free. We recommend using [Vercel](https://bit.ly/fem-vercel) as it's an amazing service and extremely simple to get set up with. If you'd like to use Vercel, here are some steps to follow to get started:
-
-1. [Sign up to Vercel](https://bit.ly/fem-vercel-signup) and go through the onboarding flow, ensuring your GitHub account is connected by using their [Vercel for GitHub](https://vercel.com/docs/v2/git-integrations/vercel-for-github) integration.
-2. Connect your project to Vercel from the ["Import project" page](https://vercel.com/import), using the "From Git Repository" button and selecting the project you want to deploy.
-3. Once connected, every time you `git push`, Vercel will create a new [deployment](https://vercel.com/docs/v2/platform/deployments) and the deployment URL will be shown on your [Dashboard](https://vercel.com/dashboard). You will also receive an email for each deployment with the URL.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Submit it on the platform so that other users will see your solution on the site. Here's our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) to help you do that.
-2. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
-3. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor** including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-
-## Giving feedback
-
-Feedback is always welcome, so if you have any to give on this challenge please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
-
-## Community Sponsors
-
-A massive thank you to our community sponsors!
-
-- [Hack for NF](https://bit.ly/fem-bemyapp) is a perfect opportunity to write code, contribute to an amazing cause, meet others, and have fun all at the same time! The hackathon starts October 2nd and runs through to November 13th. Datasets, mentor support, and input from patients are all provided. There's also $40K USD in prizes and grants up for grabs!
-- [Diversify Tech](https://bit.ly/fem-diversify-tech) is an amazing resource for underrepresented people in tech. The site features job listings for anyone seeking new opportunities. The resource section is also full of useful links to dive into!
-- [Zero to Mastery](https://bit.ly/fem-ztm) is an incredible learning resource for all things web development. Led by Andrei Neagoie, the courses are really high-quality content and cover a wide range of in-demand skills.
+site:	correct name
+GitHub repo	countries-react
+Netlify site	cyf-YOURGITHUBUSERNAME-countries-react
+##### Level 1 Challenge
+Write a react app to present the list of countries as shown in the frontend mentor challenge.
+Get as close as possible to the presentation.
+Format the population correctly
+Ignore the search box
+Ignore the region select
+Ignore the colour theme selector
+Ignore the requirement to allow "clicking into" specific countries. Just show the main list.
+Publish your project on GitHub and Netlify with the correct names (see Hosting, above).
+#### Level 2 challenge
+Add the search box
+When the search box has text in it, your app should update the displayed list of countries to only show matches
+Accept matches of the string in the country name AND matches in the capital's name
+Matches should be case-insensitive.
+When the search bar is clear, all countries should be shown.
+#### Level 3 challenge
+Add the "region select" menu
+When this is changed, only show the countries which:
+have the chosen region, AND
+match the search box term (if there is one)
+When a region is not selected (i.e. the menu is set to "Filter by region") then countries should NOT be filtered by region and only the search rules should apply.
+Level 4 challenge
+Allow users to click on a country and view that country's full details, as shown in the frontendmentor challenge.
+Make sure to allow clicking on bordering countries to visit these neighbours
+Don't forget the "back" button
+Level 5 challenge
+Implement the colour scheme picker
+Beyond - ideas for more work
+easy: Add a "random country" button
+Advanced: Make a quiz where a country card is shown and 5 random capitals - the user must correctly guess the correct capital.
+use a separate component to develop this without affecting your main app
+Advanced: Make a game where two countries are named and the user tries to navigate from one country to another via their bordering countries in the fewest possible steps.
+record "favourite" countries
+Find a way to persist these even after the browser tab is closed
+See the existing CYF Group project: Countries for more ideas
+Credits
+This is a presentation (and further structuring) of a free challenge made available here by Frontend Mentor. Code Your Future are grateful for that excellent resource!
